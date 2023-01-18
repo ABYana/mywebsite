@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "keywords" content = "Web development service, HTML and CSS development, Adaptive layout, responsive design">
+  <meta name="description" content="Website  of offering web development service">
+  <link rel="shortcut icon" href="images/frame.png" type="image/x-icon">
+  <!-- Google fonts  -->
+	<title>Web Development</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Custom icon  -->
+   <script defer src="https://kit.fontawesome.com/6f1fff1a72.js" crossorigin="anonymous"></script>
+   <!-- CSS file  -->
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="stylesheet" href="css/reset.css" media="all">
+	<link rel="stylesheet" href="css/adaptive.css" media="all">
+	<link rel="stylesheet" href="css/animation.css" media="all">
+</head>
+<body>
+ <div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+<!-- Header
+  ================================================== -->
+	<header class="header">
+		<nav>
+		  <a href="#home" class="logo">YanaBA</a>
+		  <input class="menu-btn" type="checkbox" id="menu-btn">
+		  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		  <ul class="menu">
+		    <li><a href="#home" class="link">Главная</a></li>
+		    <li><a href="#skills" class="link">Навыки</a></li>
+		    <li><a href="#service" class="link">Услуги</a></li>
+		    <li><a href="#portfolio" class="link">Портфолио</a></li>
+			  <li><a href="#contacts" class="link">Контакты</a></li>
+        <li><a href="index1.html" class="link language">EN</a></li>
+      </ul>
+		  </nav>
+</header>
+<main>
+<!-- Home section
+================================================== -->
+<section id="home" class="home">
+    	  <div class="container__home">
+     		<div class="slideshow-container scale-up-center">
+              <div class="mySlides fade">
+	   			<img src="images/image1.jpg" alt="introduction image">
+	  		   	<h2 class="text">Разработка сайтов</h2>
+			  </div>
+				<div class="mySlides fade">
+				  <img src="images/image3.jpg" alt="introduction image">
+			  	  <h2 class="text">Адаптивная и <br> семантическая верстка сайтов</h2>
+				</div>
+				<div class="mySlides fade">
+				  <img src="images/image4.jpg" alt="introduction image">
+				  <h2 class="text">Создание сайтов на <br>Tilda и Wordpress </h2>
+				</div>
+            </div>
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+			<a href="#skills" class="btn__offer scale-up-center">Подробнее</a>
+     		</div>
+</section>
+<!-- Skills section
+================================================== -->
+<section id="skills" class="skills reveal">
+       	<h1>Обо мне</h1>
+          <div class="container">
+          	<div class="box__img">
+          		<ul>
+          			<li class="link__skills">HTML</li>
+          			<li class="link__skills">CSS</li>
+          			<li class="link__skills">SASS</li>
+          			<li class="link__skills">Bootstrap</li>
+          			<li class="link__skills">FIGMA</li>
+          			<li class="link__skills">Tilda</li>
+          			<li class="link__skills">WordPress</li>
+          			<li class="link__skills">Adaptive layout</li>
+          			<li class="link__skills">GitHub</li>
+          		</ul>
+          	</div>
+          	<div class="box__text">
+          		<div class="text__skills">
+          			<p>Рада приветствовать Вас на моем сайте. Меня зовут Яна Арсеновна. Свое путешествие в мир разработки веб-сайтов я начала в 2021г. </p>
+          			<h2>Навыки</h2>
+          			<p>За этот короткий период я успешно прошла несколько онлайн курсов по изучению Веб-разработки на российских и иностранных образовательных платформах. В частности, я изучила: HTML, CSS, SASS, Bootstrap,  FIGMA, GitHub, JS, Адаптивная верстка, Анимации на сайте, Tilda, WordPress и многое другое.</p>
+          			<h2>Курсы</h2>
+          			<ul class="courses">
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>GreatLearning Academy/Front-End Разработка - HTML</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>май 2022</p>
+                             <a href="https://olympus.mygreatlearning.com/courses/12761/certificate" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>GreatLearning Academy/Front-End Разработка - CSS</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>май 2022</p>
+                             <a href="https://olympus.mygreatlearning.com/courses/12800/certificate" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>GreatLearning Academy/Front-End Разработка - JavaScript</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>май 2022</p>
+                             <a href="https://olympus.mygreatlearning.com/courses/38643/certificate" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа NETOLOGY/Основы программы FIGMA</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>июнь 2022</p>
+                             <a href="https://netology.ru/backend/api/user/programs/25605/pdf_certificate" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа NETOLOGY/Основы верстки сайтов</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>июль 2022</p>
+                             <a href="https://netology.ru/backend/api/user/programs/30543/pdf_certificate" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа WayUp/Веб-верстальщик: начало</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>август 2022</p>
+                             <a href="https://wayup-other.s3.eu-west-2.amazonaws.com/certificates/VVN54390713_ru.pdf" class="link__certificate" target="_blank">Сертификат </a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа WayUp/Веб-дизайнер: взрывной старт</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>август 2022</p>
+                             <a href="https://wayup-other.s3.eu-west-2.amazonaws.com/certificates/VS53390713_ru.pdf" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа WayUp/ JS:погружение</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>ноябрь 2022</p>
+                             <a href="https://wayup-other.s3.eu-west-2.amazonaws.com/certificates/JSP42390713_ru.pdf" class="link__certificate" target="_blank">Сертификат</a>
+          				</li>
+          				<li class="course__info">
+          					<h5 class="course__title">Наименование</h5>
+                             <p>Образовательная платформа UDACITY/Адаптивная верстка сайтов</p>
+                             <h5 class="course__title">Время обучения</h5>
+                             <p>ноябрь 2022</p>
+                             <a href="" class="link__certificate">Сертификат
+                             </a>
+          				</li>
+          				</ul>
+          		</div>
+          	</div>
+          </div>
+ </section>
+<!-- Skills section
+================================================== -->
+<section id="service" class="service reveal">
+  	       <h1 class="title__bg">Что я предлагаю</h1>
+           <div class="container">
+            <div class="box__text">
+            	<h2 class="title__bg">Виды сайтов </h2>
+            	 <details>
+                    <summary class="text__service">Многостраничные сайты </summary>
+                      <div class="content">
+                      	<article>
+                      	<h3 class="title__content">Многостраничный сайт </h3> 
+                      	<p>определенно необходим у кого крупный бизнес и широкий ассортимент товаров к реализации.</p>
+                        <p>Такой сайт показывает престиж и репутацию компании, что помогает ей быть на ступеньку выше тех, у кого его нет. Многостранничник способствует информированию клиентов, упрощает многие бизнес задачи и соответственно развивает бизнес.</p>
+                        <p>Цена договорная</p>
+                        </article>
+                      </div>
+                    </details>
+                   <details>
+                    <summary class="text__service">Одностраничные сайты/Лэндинг </summary>
+                      <div class="content">
+                      	<article>
+                      	<h3 class="title__content">Одностраничный сайт/Лендинг </h3>
+                      	<p> является одним из способов знакомства клиентов с различными предложениями, событиями, мероприятиями и многое другое.</p>
+                        <p>Главная задача лендинга – создать условия для непосредственного контакта с клиентом. Одностраничный сайт создается для совершения какого-нибудь действие. Это может быть заполнение формы заявки, обращение за помощью консультанту, оплата покупки и многое другое.</p>
+                        <p>Цена договорная</p>
+                        </article>
+                      </div>
+                    </details>
+                  <h2 class="title__bg">Разновидности верстки </h2>
+                	<details>
+                    <summary class="text__service">Адаптивная верстка </summary>
+                      <div class="content">
+                      	<article>
+                      	<h3 class="title__content">Адаптивная верстка </h3>
+                      	<p>помогает создать сайт, который адаптирован для разных типов устройств. Другими словами Ваш сайт будет открываться на различных устройствах (мобильные устройства, планшеты, настольные компьютеры) и информация на сайте будет представлена максимально доступно и легко читаться.</p>
+                      	<p>Цена договорная</p>
+                      </article>
+                      </div>
+                 </details>
+                 <details>
+                    <summary class="text__service">Семантическая верстка </summary>
+                      <div class="content">
+                      	<article>
+                      	<h3 class="title__content">Семантическая верстка </h3>
+                      	<p> основана на использовании HTML-тегов в соответствии с их предназначением, а также предполагает логическую и последовательную иерархию страницы на сайте.</p>
+                      	<p>Наличие семантической разметки страниц помогает поисковым ботам лучше понимать, что находится на странице, и в зависимости от этого ранжировать сайты в поисковой выдаче. Другими словами, данная верстка               	улучшит понимание контента Вашего сайта со стороны любого поисковика, что заметно внесет вклад в ваши SEO усилия.</p>
+                      	<p>Цена договорная</p>
+                      </article>
+                      </div>
+                 </details>
+                 <h2 class="title__bg">Инструменты верстки </h2>
+            	 <details>
+                    <summary class="text__service">Разработка сайта на HTML/CSS/SASS/Bootstrap... </summary>
+                      <div class="content">
+                      <article>
+                      <h3 class="title__content"> Разработка сайтов на HTML/CSS/Bootstrap </h3>
+                      <p>определенно дает больше возможностей для реализации на сайте различных идей заказчиков и дизайнеров. Это более качественный подход к разработке сайтов, что позволяет создать эксклюзивный и современный сайт с различными функционалом и анимациями. </p>
+                      <p>Но обычно этот подход более трудоёмкий, соответственно обходиться дороже и занимает больше времени для разработки.</p>
+                      <p>Цена договорная</p>
+                      </article>
+                      </div>
+                 </details>
+                 <details>
+                    <summary class="text__service">Разработка сайта на  Tilda и Wordpress </summary>
+                      <div class="content">
+                      <article>
+                      <h3 class="title__content"> Разработка сайтов на конструктаре Tilda и CMS Wordpress </h3>
+                      <p>является совеременным подходом к созданию сайтов. Создание сайта на базе конструктора представляет собой более бюджетный и быстрый вариант. Также в последующем заказчику нет необходимости звать IT специалиста для корректировки контента сайта, так как конструкторы очень просты в управлении и использовании.</p>
+                      <p>Однако модификации на сайте, разработанном на конструкторе, будут ограничены.</p>
+                      <p>Цена договорная</p>
+                      </article>
+                      </div>
+                 </details>
+                <button type="submit" class="button" data-modal="modalOne">Отправить заявку</button>
+                 <div id="modalOne" class="modal">
+			      <div class="modal-content">
+			        <div class="contact-form">
+			          <a class="close">&times;</a>
+			          <form action="https://formsubmit.co/yana.arsenovna1@gmail.com" method="POST">
+			            <h2 class="title__form">Ваша заявка</h2>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://abyana.github.io/mywebsite/thank.html">
+			            <div>
+			              <input class="name" type="text" name="name" placeholder="Ваше имя" required>
+			              <input type="text" name="email" placeholder="Ваш еmail" required>
+			              <input type="tel" name="phone" placeholder="Ваш телефон" required>
+			             </div>
+			            <button type="submit">Отправить</button>
+			          </form>
+			        </div>
+			      </div>
+			     </div>
+             </div>
+                <div class="box__img">
+                 	<picture>
+ 					 <source media="(max-width:800px)" srcset="images/image4.jpg">
+ 					 <img class="img__service" src="images/image5.jpg"  alt="a computer" loading="lazy">
+					</picture>
+				</div>
+      </div>
+</section>
+<!-- Portfolio section
+================================================== -->
+<section id="portfolio" class="portfolio reveal">
+    	<h1>Мой портфолио</h1>
+        <div class="portfolio__title">  Некоторые проекты веб сайтов, разработанные мною с помощью инструментов Front End разработки (HTML,CSS,SASS,JS/jQuery,Bootstrap, FIGMA, GitHub)</div>
+		<div class="container slidershow__container">
+          <div class="mySlider fade">
+		    <div class="img__portfolio">
+		      <img src="images/project1.jpg" class="img__project" alt="Organic food delivery service website home page" loading="lazy">
+		    </div>
+		    <div class="text__portfolio">
+		      <h2> Way To East</h2>
+		      <div class="portfolio__info">  <a href="https://abyana.github.io/UzNationalShop/" class="portfolio__link" target="_blank"> Данный вебсайт </a>адаптирован под все устройства с семантической и анимированной версткой, разработан на основе HTML, CSS, JS.</div>
+		     </div>	
+		 </div>
+		<div class="mySlider fade">
+		    <div class="img__portfolio">
+		      <img src="images/project2.jpg" class="img__project" alt="WayToEast website home page" loading="lazy">
+		    </div>
+		    <div class="text__portfolio">
+		      <h2> Клуб здоровья LIFE </h2>
+		      <div class="portfolio__info"> <a href="https://abyana.github.io/HealthyClub-Life/" class="portfolio__link" target="_blank"> Данный вебсайт </a> адаптирован под все устройства с семантической и анимированной версткой, разработан на основе HTML, CSS, JS.</div>
+		      </div>	
+		 </div>
+		 <div class="mySlider fade">
+		    <div class="img__portfolio">
+		      <img src="images/project3.jpg" class="img__project" alt="Healthy club website home page" loading="lazy">
+		    </div>
+		    <div class="text__portfolio">
+		      <h2> Fashion Blog </h2>
+		      <div class="portfolio__info"> <a href="" class="portfolio__link" target="_blank">Данный вебсайт</a> адаптирован под все устройства с семантической и анимированной версткой, разработан по макету из FIGMA на основе HTML, SASS, JS/jQuery.</div>
+		    </div>	
+		 </div>
+		<div class="mySlider fade">
+		    <div class="img__portfolio">
+		      <img src="images/project4.jpg" class="img__project" alt="FashionBlog website home page" loading="lazy">
+		    </div>
+		    <div class="text__portfolio">
+		      <h2>  Delivery Service</h2>
+		      <div class="portfolio__info"> <a href="" class="portfolio__link" target="_blank">Данный вебсайт </a> адаптирован под все устройства с семантической и анимированной версткой, разработан по макету из FIGMA на основе HTML, SASS, JS.</div>
+		     </div>	
+		 </div>
+	    <div class="btn__click">
+		    <a class="prev" onclick="plusSlides(-1)">❮</a>
+		    <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+    </div>
+ <div style="text-align:center">
+    <span class="dots" onclick="currentSlide(1)"></span> 
+    <span class="dots" onclick="currentSlide(2)"></span> 
+    <span class="dots" onclick="currentSlide(3)"></span> 
+    <span class="dots" onclick="currentSlide(4)"></span> 
+  </div>
+   <div class="portfolio__title">  Некоторые проекты веб сайтов, разработанные мною на конструкторе Tilda и СМИ WordPress </div>
+   <div class="container__card">
+   	  <div class="card">
+		  <div class="card__img">
+		    <img src="images/tilda1.jpg" class="image" alt="Inspiration website home page" loading="lazy">
+		  </div>
+	      <div class="card__text">
+		    <h2>Inspiration</h2>
+		     <ul>
+		        <li> Разработан на конструкторе Tilda </li>
+		        <li> Адаптирован под все устройства</li>
+		        <li> Включены анимации и SEO инструменты</li>
+		        <li> <a href="http://websiteportfolio.tilda.ws/inspiration" target="_blank" class="card__link">Ссылка на сайт
+		         </a></li>
+		      </ul>
+		  </div>
+       </div>
+       <div class="card">
+		  <div class="card__img">
+		    <img src="images/wordpress.jpg" class="image" alt="UztravelAgency website home page" loading="lazy">
+		  </div>
+	      <div class="card__text">
+		    <h2>UzTravelAgency</h2>
+		     <ul>
+		        <li> Разработан на СМИ Wordpress </li>
+		       	<li> Многостраничный сайт </li>
+		        <li> Адаптирован под все устройства</li>
+		        <li> <a href="https://uztravelagency.wordpress.com/" target="_blank" class="card__link">Ссылка на сайт
+		         </a></li>
+		      </ul>
+		  </div>
+       </div>
+       <div class="card">
+		  <div class="card__img">
+		    <img src="images/tilda22.jpg" class="image" loading="lazy" alt="OptiMeal website home page">
+		  </div>
+	      <div class="card__text">
+		    <h2>OptiMeal</h2>
+		     <ul>
+		        <li> Разработан на конструкторе Tilda </li>
+		        <li> Адаптирован под все устройства</li>
+		        <li> Включены анимации и SEO инструменты</li>
+		        <li> <a href="http://websiteportfolio.tilda.ws/optimeal" target="_blank" class="card__link">Ссылка на сайт
+		        </a></li>
+		      </ul>
+		  </div>
+       </div>
+  </div>
+</section>
+<!-- Contacts section
+================================================== -->
+<section  id="contacts" class="info reveal"> 
+<h1 class="title__bg">Контакты</h1>
+     <div class="container">
+            <div class="box__info">
+            	<h2 class="title__bg">Телефон</h2>
+            	<a href="tel:998998165810" class="info__link">+99899-816-58-10</a>
+            </div> 
+             <div class="box__info">
+            	<h2 class="title__bg">Email</h2>
+            	<a href="mailto:yana.arsenovna1@gmail.com" class="info__link">yana.arsenovna1@gmail.com</a>
+            </div>
+              <div class="box__apply">
+            	<h2 class="title__bg">Ваша заявка</h2>
+            	      <form action="https://formsubmit.co/yana.arsenovna1@gmail.com" method="POST" class="form__apply">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://abyana.github.io/mywebsite/thank.html">
+			            <div>
+			              <input type="text" name="name" placeholder="Ваше имя" required>
+			              <input type="email" name="email" placeholder="Ваш еmail" required>
+			              <input type="tel" name="phone" placeholder="Ваш телефон" required>
+			             </div>
+			            <button type="submit" class="btn__apply">Отправить</button>
+			          </form>
+			   </div> 
+      </div> 
+</section>
+</main>
+<!-- Footer
+================================================== -->
+<footer class="reveal">
+	<div class="container">
+		 <div class="logo"> 
+          <img src="images/image7.jpg" class="footer__img" alt="a keyboard" loading="lazy">
+          <a href="#home" class="logo">YanaBA</a> 
+          <p class="rights">&#64;All rights reserved. 2022 </p>
+		 </div>
+          <div class="menu"> 
+          	<div class="footer__submenu">
+          	<h2 class="footer__title">Меню</h2>
+	          	<ul>
+		             <li ><a href="#home" class="footer__link">Главная</a></li>
+		             <li><a href="#skills" class="footer__link">Навыки</a></li>
+		             <li><a href="#service" class="footer__link">Услуги</a></li>
+		             <li><a href="#portfolio" class="footer__link">Портфолио</a></li>
+		             <li><a href="#contacts" class="footer__link">Контакты</a></li>
+		         </ul>
+		     </div>
+		     <div>
+             <h2 class="footer__title">Для информации</h2>
+             	<ul>
+		             <li ><a href="https://www.udacity.com/" target="_blank" class="footer__link">Udecity</a></li>
+		             <li><a href="https://www.w3schools.com/" target="_blank" class="footer__link">W3School</a></li>
+		             <li><a href="https://netology.ru/" target="_blank" class="footer__link">Netology</a></li>
+		             <li><a href="https://wayup.in/" target="_blank"  class="footer__link">WayUp</a></li>
+		             <li><a href="https://itlogia.ru/" target="_blank" class="footer__link">ITLogiya</a></li>
+                </ul>
+            </div>
+           </div>
+           <div class="footer__info">  
+               <div class="socials">
+                 	<a href="https://t.me/YanaAB1" target="_blank" class="fa fa-telegram footer__icon"></a>
+                 	<a href="mailto:yana.arsenovna1@gmail.com"  class="fa fa-envelope footer__icon"></a>
+                 	<a href="tel:+998998165810" class="fa fa-phone footer__icon"></a>
+                </div>
+               <form name="search" class="form__search">
+                 <input type="search" class="search" name="q" placeholder="Поиск">
+                 <button class="btn__search" type="submit" formaction="http://google.com/search?q" >Найти</button>
+               </form>
+           </div>
+	</div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
